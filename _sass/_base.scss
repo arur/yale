@@ -65,6 +65,11 @@ aside {
     padding: 50px 0;
 }
 
+footer {
+    padding: 50px 0;
+    @include sans-serif-font;
+}
+
 .no-padding {
     padding: 0;
 }
@@ -315,6 +320,13 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+}
+
+// About
+#about {
+    background-position: center;
+    background-image: linear-gradient(rgba(51, 122, 183, 0.9), rgba(51, 122, 183, 0.9)), url('../img/about.jpg');
+    @include background-cover;
 }
 
 // Contact
