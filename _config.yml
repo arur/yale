@@ -1,12 +1,15 @@
 # Site settings
-title: "Yale Medical Centre"
-email: "Yalemed1280@yahoo.ca"
-description: > # this means to ignore newlines until "baseurl:"
+title: Yale Medical Centre
+email: yalemed1280@yahoo.ca
+description: Yale Medical Centre is an addiction clinic providing Methadone and Suboxone maintainance treatment.
 baseurl: "/yale" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "yalemedicalcentre.com" # the base hostname & protocol for your site
 
 twitter_username:
 github_username:
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-seo-tag
